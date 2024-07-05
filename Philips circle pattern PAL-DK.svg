@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="576" viewBox="0 0 768 576">
+    <style>
+        #foreground {   
+            fill:#7a7a7a;
+            stroke:#fff;
+            stroke-width: 2px;
+        }
+        #background {
+            fill:url(#pattern1);
+        }
+        #lines {
+            stroke:#fff;
+            stroke-width: 2px;
+        }
+        #scanlinegrid {
+            stroke:#fff;
+            stroke-width: 2px;
+        }
+        #circle {
+            clip-path: url(#circlecut);
+        }
+    </style>
+    <defs>
+        <pattern x="27" y="15" width="84" height="84" id="pattern1" patternUnits="userSpaceOnUse">
+            <path id="path1" d="M0 0H42V84h42v-42h-84v-42" fill="#fff" stroke="#fff" stroke-width="2px" />
+            <path id="path2" d="M42 0V84H0V42H84V0H42" fill="#000" stroke="#fff" stroke-width="2px" />
+        </pattern>
+        <pattern x="384" y="0" width="59" height="42" id="pattern2" patternUnits="userSpaceOnUse">
+            <rect id="rect1" x="0" y="0" width="29.5" height="42" fill="#000" />
+            <rect id="rect2" x="29.5" y="0" width="29.5" height="42" fill="#bfbfbf" />
+        </pattern>
+        <clipPath id="circlecut">
+            <circle id="circlepattern" cx="384" cy="288" r="252" />
+        </clipPath>
+        <linearGradient id="linearGradient1" x1="153.25" x2="162.25" y1="309" y2="309" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+            <stop offset="0%" stop-color="#000" />
+            <stop offset="100%" stop-color="#fff" />
+        </linearGradient>
+        <linearGradient id="linearGradient2" x1="229.25" x2="232.75" y1="309" y2="309" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+            <stop offset="0%" stop-color="#000" />
+            <stop offset="100%" stop-color="#fff" />
+        </linearGradient>
+        <linearGradient id="linearGradient3" x1="307.25" x2="309.5" y1="309" y2="309" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+            <stop offset="0%" stop-color="#000" />
+            <stop offset="100%" stop-color="#fff" />
+        </linearGradient>
+        <linearGradient id="linearGradient4" x1="393.5" x2="395.75" y1="309" y2="309" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+            <stop offset="0%" stop-color="#000" />
+            <stop offset="100%" stop-color="#fff" />
+        </linearGradient>
+        <linearGradient id="linearGradient5" x1="470" x2="471.8" y1="309" y2="309" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+            <stop offset="0%" stop-color="#000" />
+            <stop offset="100%" stop-color="#fff" />
+        </linearGradient>
+        <linearGradient id="linearGradient6" x1="565.25" x2="566.825" y1="309" y2="309" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+            <stop offset="0%" stop-color="#000" />
+            <stop offset="100%" stop-color="#fff" />
+        </linearGradient>
+    </defs>
+    <rect width="768" height="576" id="background" />
+    <rect width="714" height="546" x="27" y="15" id="foreground" />
+    <g id="lines">
+        <line x1="69" y1="15" x2="69" y2="561" id="line1" />
+        <line x1="111" y1="15" x2="111" y2="561" id="line2" />
+        <line x1="153" y1="15" x2="153" y2="561" id="line3" />
+        <line x1="195" y1="15" x2="195" y2="561" id="line4" />
+        <line x1="237" y1="15" x2="237" y2="561" id="line5" />
+        <line x1="279" y1="15" x2="279" y2="561" id="line6" />
+        <line x1="321" y1="15" x2="321" y2="561" id="line7" />
+        <line x1="363" y1="15" x2="363" y2="561" id="line8" />
+        <line x1="405" y1="15" x2="405" y2="561" id="line9" />
+        <line x1="447" y1="15" x2="447" y2="561" id="line10" />
+        <line x1="489" y1="15" x2="489" y2="561" id="line11" />
+        <line x1="531" y1="15" x2="531" y2="561" id="line12" />
+        <line x1="573" y1="15" x2="573" y2="561" id="line13" />
+        <line x1="615" y1="15" x2="615" y2="561" id="line14" />
+        <line x1="657" y1="15" x2="657" y2="561" id="line15" />
+        <line x1="699" y1="15" x2="699" y2="561" id="line16" />
+        <line x1="27" y1="57" x2="741" y2="57" id="line17" />
+        <line x1="27" y1="99" x2="741" y2="99" id="line18" />
+        <line x1="27" y1="141" x2="741" y2="141" id="line19" />
+        <line x1="27" y1="183" x2="741" y2="183" id="line20" />
+        <line x1="27" y1="225" x2="741" y2="225" id="line21" />
+        <line x1="27" y1="267" x2="741" y2="267" id="line22" />
+        <line x1="27" y1="309" x2="741" y2="309" id="line23" />
+        <line x1="27" y1="351" x2="741" y2="351" id="line24" />
+        <line x1="27" y1="393" x2="741" y2="393" id="line25" />
+        <line x1="27" y1="435" x2="741" y2="435" id="line26" />
+        <line x1="27" y1="477" x2="741" y2="477" id="line27" />
+        <line x1="27" y1="519" x2="741" y2="519" id="line28" />
+    </g>
+    <g id="circle">
+        <rect id="topcircle" x="132" y="36" width="504" height="21" fill="#ffffff" />
+        <rect id="2ndrect1" x="132" y="57" width="168" height="42" fill="#ffffff" />
+        <rect id="title1" x="300" y="57" width="168" height="42" fill="#000" />
+        <rect id="2ndrect2" x="468" y="57" width="168" height="42" fill="#ffffff" />
+        <rect id="3rdrect1" x="132" y="99" width="126" height="42" fill="#000" />
+        <rect id="refcheck1" x="258" y="99" width="252" height="42" fill="#fff" />
+        <rect id="3rdrect2" x="510" y="99" width="252" height="42" fill="#000" />
+        <line id="line43" x1="279" y1="99" x2="279" y2="141" stroke="#000" stroke-width="2" />
+        <rect id="squarewave" x="132" y="141" width="504" height="42" fill="url(#pattern2)" />
+        <rect id="colorbar1" x="132" y="183" width="84" height="84" fill="#bfbf00" />
+        <rect id="colorbar2" x="216" y="183" width="84" height="84" fill="#00bfbf" />
+        <rect id="colorbar3" x="300" y="183" width="84" height="84" fill="#00bf00" />
+        <rect id="colorbar4" x="384" y="183" width="84" height="84" fill="#bf00bf" />
+        <rect id="colorbar5" x="468" y="183" width="84" height="84" fill="#bf0000" />
+        <rect id="colorbar6" x="552" y="183" width="84" height="84" fill="#0000bf" />
+        <rect id="center" x="132" y="267" width="504" height="42" fill="#000" />
+        <rect id="gratingsback" x="132" y="309" width="504" height="84" fill="#000" />
+        <rect id="gratings1" x="132" y="309" width="84" height="84" fill="url(#linearGradient1)" />
+        <rect id="gratings2" x="216" y="309" width="84" height="84" fill="url(#linearGradient2)" />
+        <rect id="gratings3" x="300" y="309" width="84" height="84" fill="url(#linearGradient3)" />
+        <rect id="gratings4" x="384" y="309" width="84" height="84" fill="url(#linearGradient4)" />
+        <rect id="gratings5" x="468" y="309" width="84" height="84" fill="url(#linearGradient5)" />
+        <rect id="gratings6" x="552" y="309" width="84" height="84" fill="url(#linearGradient6)" />
+        <rect id="grayscale1" x="132" y="393" width="84" height="42" fill="#000" />
+        <rect id="grayscale2" x="216" y="393" width="84" height="42" fill="#333" />
+        <rect id="grayscale3" x="300" y="393" width="84" height="42" fill="#666" />
+        <rect id="grayscale4" x="384" y="393" width="84" height="42" fill="#999" />
+        <rect id="grayscale5" x="468" y="393" width="84" height="42" fill="#ccc" />
+        <rect id="grayscale6" x="552" y="393" width="84" height="42" fill="#fff" />
+        <rect id="8threct1" x="132" y="435" width="126" height="42" fill="#fff" />
+        <rect id="title2" x="258" y="435" width="252" height="42" fill="#000" />
+        <line id="line44" x1="279" y1="435" x2="279" y2="477" stroke="#fff" stroke-width="2" />
+        <rect id="8threct2" x="510" y="435" width="126" height="42" fill="#fff" />
+        <rect id="timingcheck1" x="132" y="477" width="231" height="63" fill="#bfbf00" />
+        <rect id="timingcheck2" x="363" y="477" width="42" height="63" fill="#bf0000" />
+        <rect id="timingcheck3" x="405" y="477" width="231" height="63" fill="#bfbf00" />
+        <rect id="centervertical" x="363" y="225" width="42" height="126" fill="#000" />
+        <g id="scanlinegrid">
+            <line id="line29" x1="132" x2="636" y1="288" y2="288" />
+            <line id="line30" x1="384" x2="384" y1="225" y2="351" />
+            <line id="line31" x1="153" x2="153" y1="267" y2="309" />
+            <line id="line32" x1="195" x2="195" y1="267" y2="309" />
+            <line id="line33" x1="237" x2="237" y1="267" y2="309" />
+            <line id="line34" x1="279" x2="279" y1="267" y2="309" />
+            <line id="line35" x1="321" x2="321" y1="267" y2="309" />
+            <line id="line36" x1="363" x2="363" y1="267" y2="309" />
+            <line id="line37" x1="405" x2="405" y1="267" y2="309" />
+            <line id="line38" x1="447" x2="447" y1="267" y2="309" />
+            <line id="line39" x1="489" x2="489" y1="267" y2="309" />
+            <line id="line40" x1="531" x2="531" y1="267" y2="309" />
+            <line id="line41" x1="573" x2="573" y1="267" y2="309" />
+            <line id="line42" x1="615" x2="615" y1="267" y2="309" />
+        </g>
+    </g>
+    <g id="leftbracket">
+        <path id="topleft1" d="M70 58H111V140H110V288H70V58" fill="#1ea382" />
+        <path id="bottomleft1" d="M70 288H110V436H111V518H70V288" fill="#c4447f" />
+        <path id="topleft2" d="M111 58h41v82h-41v-82" fill="#2969ca" />
+        <path id="bottomleft2" d="M111 436h41v82h-41v-82" fill="#a37333" />
+    </g>
+    <g id="rightbracket">
+        <path id="topright2" d="M616 58h41v82h-41v-82" fill="#2969ca" />
+        <path id="bottomright2" d="M616 436h41v82h-41v-82" fill="#a37333" />
+        <path id="topright1" d="M657 58h41v230h-40v-148h-1v-82" fill="#6e851c" />
+        <path id="bottomright1" d="m657 518h41v-230h-40v148h-1v82" fill="#6d3ddf" />
+    </g>
+</svg>
